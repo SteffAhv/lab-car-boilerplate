@@ -1,1 +1,12 @@
 /* Los estilos de tu proyecto */
+.yellow {
+    background-color:rgb(255, 196, 1);
+    margin-top:50%;
+}
+.bg {
+    height:540px;
+    background: url('../assets/images/taxi.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
