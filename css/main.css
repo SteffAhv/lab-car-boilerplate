@@ -81,3 +81,28 @@ input {
 .logo-white {
     margin:1em;
 }
+.desktop-text {
+    display:none;
+}
+.map-2 {
+    display:none;
+}
+@media screen and (min-width:768px) {
+    .second-section {
+        text-align: justify;
+    }
+    .movil-text {
+        display:none;
+    }
+    .desktop-text {
+        display:block;
+    }
+    .text-phone {
+        padding: 0 30em 0 0;
+        float:right;
+    }
+    .driver-box {
+        background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.5));
+        padding: 3em;
+    }
+}
