@@ -1,15 +1,83 @@
 /* Los estilos de tu proyecto */
-.yellow {
+/* Movile First */
+
+.yellow-box {
+    color:#fff;
     background-color:rgb(255,191,0);
-    margin-top:50%;
+    padding: 1em 2em;
 }
-.bg {
+.first-section {
+    display:flex;
     height:540px;
     background: url('../assets/images/taxi.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    justify-content: flex-end;
+    align-items: center;
 }
-.phone {
+
+.second-section {
     background-color:rgb(255,191,0);
+    height: auto;
+    font-weight: bold;
+    color:#fff;
+}
+.outline {
+    border: 1px solid #fff;
+    margin : 1em 0;
+}
+.third-section {
+    color:#fff;
+    height:300px;
+    background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.5)), url('../assets/images/conduce.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+} 
+
+.fourth-section {
+    background-color:rgb(255,191,0);
+    color:#fff;
+    text-align: center;
+}
+form {
+    padding: 1em;
+}
+input {
+    background-color:rgb(255,191,0);
+    padding: 0.5em;
+    border-radius:1em;
+    border-style: none;
+    border:1px solid #fff;
+}
+.map {
+    margin: 1em 0;
+    padding:1em;
+    border:1px solid #fff;
+}
+.footer {
+    background-color: #2d2d2d;
+    color:#fff;
+}
+.fa {
+    padding:0.2em;
+}
+.download {
+    padding: 0.4em 0;
+}
+.button-yellow {
+    background:#ffb100;
+    color:white;
+    font-weight:bold;
+    padding: 0.5em 1em;
+}
+.button-light {
+    background:#fff;
+    font-weight: bold;
+    color:#000;
+    padding: 0.5em 1em;
+}
+.logo-white {
+    margin:1em;
 }
