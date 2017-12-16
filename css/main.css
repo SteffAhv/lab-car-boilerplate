@@ -1,22 +1,33 @@
 /* Los estilos de tu proyecto */
+
 /* Movile First */
+
+/* Añadiendo estilos first-section*/
 
 .yellow-box {
     color:#fff;
     background-color:rgb(255,191,0);
     padding: 1em 2em;
+    position:absolute;
+    right:0;
+    margin-top:-30%;
+}
+body > div > div.row.first-section > div > div > div.hidden-md.hidden-xs > div:nth-child(2) > p > img {
+    margin:0;
+    display:inline;
+    padding: 1em;
 }
 .first-section {
     display:flex;
     height:540px;
     background: url('../assets/images/taxi.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center bottom;
     background-size: cover;
     justify-content: flex-end;
     align-items: center;
 }
-
+/* Añadiendo estilos second-section*/
 .second-section {
     background-color:rgb(255,191,0);
     height: auto;
@@ -26,15 +37,19 @@
 .outline {
     border: 1px solid #fff;
     margin : 1em 0;
+    padding: 0.5em;
 }
+/* Añadiendo estilos third-section*/
+
 .third-section {
     color:#fff;
-    height:300px;
+    height:400px;
     background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.5)), url('../assets/images/conduce.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 } 
+/*Añadiendo estilos fourth-section*/
 
 .fourth-section {
     background-color:rgb(255,191,0);
@@ -87,6 +102,9 @@ input {
 .map-2 {
     display:none;
 }
+
+/* Desktop View */
+
 @media screen and (min-width:768px) {
     .second-section {
         text-align: justify;
@@ -98,11 +116,35 @@ input {
         display:block;
     }
     .text-phone {
-        padding: 0 30em 0 0;
+        padding: 0 20em 0 0;
         float:right;
     }
     .driver-box {
-        background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.5));
+        background: linear-gradient(rgba(133, 131, 131, 0.37), rgba(90, 90, 90, 0.719));
         padding: 3em;
+        
+    }
+    .driver-btn {
+        float:left;
+    }
+    .divider {
+        margin: auto;
+        width:28em;
+        text-align:center;
+    }
+    .divider hr {
+        width:30%;
+    }
+    .left {
+        float:left;
+        background:rgb(44,62,80);
+    }
+    .right {
+        float:right;
+        background:rgb(44,62,80);
+    }
+    .yellow-box-text {
+        text-align:left; 
+        padding:1em;
     }
 }
