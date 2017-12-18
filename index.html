@@ -69,7 +69,6 @@
     <!-- First Section-->
       <div class="container-fluid">
           <div class="row first-section">
-              <!-- <img class="img-responsive"src="assets/images/taxi.jpg" alt="img"> -->
               <div class="col-xs-10 col-sm-6 col-md-4 col-md-offset-2">
                     <div class="yellow-box">
                             <div class="visible-xs">
@@ -173,10 +172,44 @@
                     <div class="driver-box">
                         <h3>Conduce cuando quieras</h3>
                         <p>Labcar es una opción flexible</p>
-                        <a class="button-yellow">Conviértete en conductor</a>
+                        <a class="button-yellow btn-driver" data-toggle="modal" data-target="#modalDriver">Conviértete en conductor</a>
                     </div>
                 </div>
             </div>
+            <!-- Driver Modal-->
+            <div class="modal" id="modalDriver" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                                <form>
+                                    <div>
+                                      <label>¿Tienes un vehículo de cuatro puertas?</label>
+                                      <select class="form-control"></select>
+                                    </div>
+                                    <div>
+                                      <label>Marca</label>
+                                      <select class="form-control"></select>
+                                     </div>
+                                    <div>
+                                      <label>Modelo</label>
+                                      <select class="form-control"></select>
+                                      <p class="help-block">¿No ves tu vehículo en la lista?.</p>
+                                    </div>
+                                    <div>
+                                      <label>Nro de Matrícula</label>
+                                      <select class="form-control"></select>
+                                      <p class="help-block">La información de la matrícula ayuda a los clientes a identificar tu vehículo.</p>
+                                    </div>
+                                    <button class="btn btn-default">ENVIAR</button>
+                                </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <!-- Fourth Section-->
             <div class="row fourth-section">
                <div class="container col-sm-6 col-md-6">
                     <h3>Tarifas</h3>
