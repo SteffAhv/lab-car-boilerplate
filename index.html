@@ -31,7 +31,7 @@
             </button>
             <img class="col-xs-offset-3 img-responsive"src="assets/images/logoForma.png" alt="logo">
           </div>
-        </div><!-- /.container-fluid -->
+        </div>
       </nav>
       <!--Modal inicio-sesion -->
       <div class="modal" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
@@ -84,7 +84,7 @@
                                 </div>
                                 <div class="yellow-box-text">
                                     <p>viaja con <img class="img-responsive" src="assets/images/logoBlanco.png" alt="logo"></p>
-                                    <a class="button-light">REGISTRATE</a>
+                                    <a class="button-light btn-register" data-toggle="modal" data-target="#modalRegister">REGISTRATE</a>
                                 </div>
                                 <div class="divider">
                                     <hr class="left white-divider"/>o bién<hr class="right white-divider" />
@@ -94,6 +94,60 @@
                     </div>
               </div>
           </div>
+          <!-- Register Modal Section-->
+          <div class="modal" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header paragraph">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <button class="btn register-btn center-block spacing">¿Ya tienes una cuenta?</button>
+                      <p>O CREA UNA CUENTA NUEVA</p>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 spacing">
+                                        <input class="form-control" name="firstname" placeholder="Nombre" type="text" required autofocus />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 spacing">
+                                        <input class="form-control" name="lastname" placeholder="Apellido" type="text" required />
+                                    </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 spacing">
+                                        <input class="form-control" name="email" placeholder="Correo Electronico" type="text" required />
+                                    </div>
+                             </div>
+                            <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 spacing">
+                                        <input class="form-control" name="subject" placeholder="Teléfono" type="text" required />
+                                    </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 spacing">
+                                            <input class="form-control" name="subject" placeholder="Contraseña" type="text" required />
+                                    </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 spacing">
+                                            <input class="form-control" name="subject" placeholder="(Opcional) Código de Invitación" type="text" required />
+                                    </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                        <button class="btn col-md-12">¿Como te enteraste de nosotros?</button>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                        <button class="btn btn-styled col-md-12">ENVIAR</button>
+                                    </div>
+                            </div>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
           <div class="row second-section">
                 <div class="col-xs-12">
                     <div class="outline">

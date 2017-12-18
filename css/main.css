@@ -166,4 +166,18 @@ input {
     .modal-content {
         background-color:#4699b5;
     }
+    .register-btn {
+        background:#000;
+        color:#fff;
+    }
+    .paragraph {
+        text-align: center;
+    }
+    .spacing {
+        padding-bottom: 0.5em;
+    }
+    .btn-styled {
+        background-color: #419cb3;
+        color:#fff;
+    }
 }
