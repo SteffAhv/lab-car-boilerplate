@@ -3,7 +3,9 @@
 /* Movile First */
 
 /* Añadiendo estilos first-section*/
-
+*{
+    font-family: 'Raleway', sans-serif;
+}
 .yellow-box {
     color:#fff;
     background-color:rgb(255,191,0);
@@ -146,5 +148,19 @@ input {
     .yellow-box-text {
         text-align:left; 
         padding:1em;
+    }
+    .footer {
+        padding-top: 1.5em;
+    }
+    .copyright {
+        text-align:center ;
+    }
+    .footer ul li, .footer img,.footer span {
+        padding:0.5em;
+    }
+    .icons {
+        position:absolute;
+        left:-300%;
+        bottom:-100%;
     }
 }
