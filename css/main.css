@@ -163,4 +163,7 @@ input {
         left:-300%;
         bottom:-100%;
     }
+    .modal-content {
+        background-color:#4699b5;
+    }
 }
