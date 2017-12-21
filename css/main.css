@@ -1,11 +1,20 @@
 /* Los estilos de tu proyecto */
-
-/* Movile First */
-
-/* Añadiendo estilos first-section*/
 *{
     font-family: 'Raleway', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
 }
+/* Movile First */
+/* Añadiendo estilos nav */
+.logo {
+    top:0;
+    padding:1em;
+    left: -15%;
+}
+
+/* Añadiendo estilos first-section*/
+
 .yellow-box {
     color:#fff;
     background-color:rgb(255,191,0);
@@ -101,13 +110,24 @@ input {
 .desktop-text {
     display:none;
 }
-.map-2 {
+.show-alt {
     display:none;
+}
+#container-map {
+    height:25em;
+    width: 100%;
+    
 }
 
 /* Desktop View */
 
 @media screen and (min-width:768px) {
+    .logo {
+        position:absolute;
+        top:0;
+        padding:1em;
+        left: -15%;
+    }
     .second-section {
         text-align: justify;
     }
@@ -180,4 +200,5 @@ input {
         background-color: #419cb3;
         color:#fff;
     }
+    
 }
